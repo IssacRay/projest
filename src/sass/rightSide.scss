@@ -1,0 +1,44 @@
+aside{
+	width: 31.5px;
+	height: 100%;
+	background-color:#eaeaea;
+	position: fixed;
+	right:0;
+	bottom:0;
+	nav{
+		height: 476px;
+		color:#c40000;
+		margin-top:110px;
+		a{
+			color:#c40000;
+		}
+		li{
+			border-bottom:1px solid #ccc;
+			box-sizing:border-box;
+			text-align:center;
+			height: 40px;
+
+			&.yonghu{
+				line-height:39px;
+			}
+			&.gouwuche{
+				height: 93px;
+				padding:10px 0;
+				span{
+					font-size:12px;
+				}
+			}
+			&.quan{
+				font-size:22px;
+				line-height:39px;
+			}
+			&.fanghui{
+				margin-top:60px;
+			}	
+		}
+
+	}
+}
+html,body{
+	height: 100%;
+}

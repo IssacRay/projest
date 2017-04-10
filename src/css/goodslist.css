@@ -1,0 +1,326 @@
+.list_top .bc_nav {
+  height: 50px;
+  box-sizing: border-box;
+  line-height: 50px;
+}
+
+.list_top .bc_nav a {
+  color: #000;
+}
+
+.list_top .bc_nav a.del {
+  display: inline-block;
+  border: 1px dotted #c40000;
+  color: #c40000;
+  width: 59px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+.list_top .bc_nav a.del:hover {
+  border: 1px solid #c40000;
+  color: #fff;
+  background-color: #c40000;
+}
+
+.list_top .selector {
+  position: relative;
+  border: 1px solid #ccc;
+  border-bottom: 0px;
+  margin-bottom: 51px;
+}
+
+.list_top .selector ul.selector_box {
+  width: 100%;
+}
+
+.list_top .selector ul.selector_box li {
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+}
+
+.list_top .selector ul.selector_box li .seltil {
+  float: left;
+  width: 105px;
+  padding-left: 13px;
+  background-color: #f7f5f5;
+}
+
+.list_top .selector ul.selector_box li .selmain {
+  width: 960px;
+  padding-left: 28px;
+  float: left;
+}
+
+.list_top .selector ul.selector_box li .selmain input {
+  width: 42px;
+  height: 20px;
+  padding: 0;
+}
+
+.list_top .selector ul.selector_box li .selmain span {
+  float: left;
+  height: 28px;
+  padding: 0 6px;
+  margin-right: 20px;
+}
+
+.list_top .selector ul.selector_box li .selmain span a {
+  color: #806f66;
+}
+
+.list_top .selector ul.selector_box li .selmain span a:hover {
+  color: #c40000;
+  text-decoration: underline;
+}
+
+.list_top .selector ul.selector_box li a.more {
+  float: right;
+  color: #806f66;
+  padding-right: 13px;
+}
+
+.list_top .selector .zhankai {
+  width: 84px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-top: 0;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  background-color: #fff;
+  bottom: -30px;
+  left: 520px;
+}
+
+.list_box {
+  margin-bottom: 10px;
+}
+
+.list_box header {
+  height: 36px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  background-color: #f7f5f5;
+  padding: 0 10px;
+}
+
+.list_box header .header_left {
+  float: left;
+}
+
+.list_box header .header_left a {
+  margin-top: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 10px;
+  height: 23px;
+  line-height: 23px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #000;
+}
+
+.list_box header .header_left a:first-child {
+  border-color: #e4393c;
+  background: #e4393c;
+  color: #fff;
+}
+
+.list_box header .header_left a:last-child {
+  border: 0px;
+  margin-left: 20px;
+}
+
+.list_box header .header_right {
+  margin-top: 6px;
+  float: right;
+}
+
+.list_box header .header_right a {
+  width: 46px;
+  height: 23px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  text-align: center;
+  line-height: 23px;
+}
+
+.list_box header .header_right a:last-child {
+  background-color: #fff;
+}
+
+.list_box .list_main .goods {
+  width: 218px;
+  height: 333px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+  float: left;
+}
+
+.list_box .list_main .goods:hover {
+  border: 1px solid #e4393c;
+}
+
+.list_box .list_main .goods a {
+  color: #000;
+}
+
+.list_box .list_main .goods img {
+  width: 210px;
+  height: 210px;
+  padding: 5px 0;
+}
+
+.list_box .list_main .goods .price {
+  padding-bottom: 4px;
+}
+
+.list_box .list_main .goods .price strong.pic {
+  font-size: 17px;
+  color: #e4393c;
+}
+
+.list_box .list_main .goods .price p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 6px 0;
+  height: 16px;
+}
+
+.list_box .list_main .goods .price p.org {
+  color: #ffaa85;
+}
+
+.list_box .list_main .goods .price span {
+  float: right;
+}
+
+.list_box .list_main .goods table {
+  height: 31px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list_box .list_main .goods table tr td {
+  border: 1px inset #ccc;
+}
+
+.list_box .list_main .goods table tr td.push a {
+  color: #c40000;
+}
+
+.list_box .list_main .goods table tr td a {
+  padding-left: 18px;
+}
+
+.list_box .list_main .goods table tr td a:hover {
+  color: #c40000;
+}
+
+.list_box .list_main .goods table tr td:hover {
+  border: 1px solid #e4393c;
+}
+
+.list_box .page_box {
+  height: 24px;
+  line-height: 24px;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.list_box .page_box span {
+  height: 23px;
+  border: 1px solid #ccc;
+  line-height: 23px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.hot {
+  background-color: #ebebeb;
+}
+
+.hot h3.hot_title {
+  font-size: 20px;
+  color: #666;
+  height: 35px;
+  line-height: 36px;
+  border-bottom: 1px solid #c40000;
+  background-color: #fff;
+}
+
+.hot a {
+  height: 172px;
+  width: 232px;
+  margin-right: 10px;
+  float: left;
+  text-align: center;
+  background-color: #c40000;
+}
+
+.hot a:last-child {
+  margin-right: 0px;
+}
+
+.hot a span {
+  color: #fff;
+  line-height: 24px;
+}
+
+.hot .hot2 {
+  margin-top: 6px;
+}
+
+.hot .hot2 .hot_box {
+  background-color: #fff;
+  width: 220px;
+  padding: 0 6px;
+  float: left;
+  margin-right: 10px;
+}
+
+.hot .hot2 .hot_box:last-child {
+  margin-right: 0px;
+}
+
+.hot .hot2 .hot_box .box {
+  width: 109px;
+  height: 50px;
+  line-height: 50px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  position: relative;
+  border-right: 1px dashed #ccc;
+  float: left;
+}
+
+.hot .hot2 .hot_box .box:nth-child(2n) {
+  float: right;
+  border-right: 0;
+}
+
+.hot .hot2 .hot_box .box .box1 {
+  position: absolute;
+}
+
+.hot .hot2 .hot_box .box .box1 img {
+  width: 110px;
+  height: 50px;
+}
+
+.hot .hot2 .hot_box .box .box1 div {
+  background-color: #c40000;
+  color: #fff;
+  text-align: center;
+  width: 110px;
+  height: 50px;
+  line-height: 50px;
+}

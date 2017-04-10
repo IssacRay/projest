@@ -1,0 +1,32 @@
+$(function(){
+	
+	$(".banner").slide({
+		affect:4,
+		time:3000,
+		speed:600,
+	});
+	$('.fa1').slide({
+		affect:3,
+		time:3000,
+		speed:600,
+		dot_text:false
+	});
+	$('.fa2').slide({
+		affect:3,
+		time:3000,
+		speed:600,
+		dot_text:false
+	});
+	$('.fa3').slide({
+		affect:3,
+		time:3000,
+		speed:600,
+		dot_text:false
+	});
+	$('.fa4').slide({
+		affect:3,
+		time:3000,
+		speed:600,
+		dot_text:false
+	});
+})

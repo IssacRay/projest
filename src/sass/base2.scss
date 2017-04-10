@@ -1,0 +1,46 @@
+.warp2{
+	width: 980px;
+	margin:0 auto;
+}
+header{
+	height: 90px;
+	line-height:90px;
+	img{
+		margin-top:18px;
+	}
+	p{
+		float:right;
+		font-size:12px;
+		span#id{
+				font-size:16px;
+			}
+		a{
+			color:#000;
+			&:nth-child(3){
+				margin:0 26px;
+			}
+			&.red{
+				color:#c40000;
+			}
+		}
+		span:nth-child(2){
+			margin:0 26px;
+		}
+	}
+}
+.banner{
+	height: 580px;
+	border-top:1px solid #ccc;
+	background: url(../img/login_bg.gif);
+}
+footer{
+	padding-top:40px;
+	text-align:center;
+	background-color:#f7f7f7;
+	p{
+		margin:7px 0;
+	}
+}
+.size{
+	font-size:12px;
+}

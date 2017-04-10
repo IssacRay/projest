@@ -1,0 +1,87 @@
+#footer {
+  width: 100%;
+  height: 343px;
+  background: url(../img/footer_Bg.gif);
+}
+
+#footer header {
+  width: 1150px;
+  height: 113px;
+  padding-top: 7px;
+  border-bottom: 2px solid #666;
+  margin: 0 auto;
+}
+
+#footer header .fhead_left {
+  width: 301px;
+  height: 75px;
+  background: url(../img/tel.png);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#footer header img {
+  margin-left: 26px;
+}
+
+#footer header p.f1 {
+  float: right;
+  color: #fff;
+  margin: 15px 20px;
+}
+
+#footer header img.fhead_right {
+  float: right;
+  width: 104px;
+}
+
+#footer .footer_body {
+  margin: 30px auto 0;
+  width: 1150px;
+}
+
+#footer .footer_body ul {
+  float: left;
+  width: 170px;
+}
+
+#footer .footer_body ul li {
+  height: 24px;
+  line-height: 24px;
+}
+
+#footer .footer_body ul li a {
+  color: #a9a9a9;
+}
+
+#footer .footer_body ul li a.yellow {
+  color: #ff0;
+}
+
+#footer .footer_body ul li:first-child {
+  margin-bottom: 10px;
+}
+
+#footer .footer_body ul h4 {
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer_body ul h4 a {
+  color: #fff;
+}
+
+#footer .footer_body ul:first-child {
+  margin-left: 100px;
+}
+
+.footer {
+  margin: 0 auto;
+  margin-top: 230px;
+  width: 1150px;
+  text-align: center;
+}
+
+.footer .gongan {
+  margin-top: 30px;
+}

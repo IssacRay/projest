@@ -1,0 +1,422 @@
+.banner {
+  width: 100%;
+  height: 453px;
+  position: relative;
+}
+
+.banner ul {
+  width: 100%;
+  height: 453px;
+  position: relative;
+}
+
+.banner ul li {
+  height: 453px;
+  width: 1263px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner ul li img {
+  width: 1263px;
+  height: 453px;
+}
+
+.banner .guangao {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.main {
+  margin-top: 10px;
+}
+
+.main .sideAd {
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .sideAd img {
+  vertical-align: top;
+}
+
+.main .main_part1 {
+  height: 261px;
+}
+
+.main .main_part1 p {
+  height: 22px;
+  margin-bottom: 6px;
+}
+
+.main .main_part1 .box {
+  border: 1px solid #ccc;
+  height: 231px;
+  box-sizing: border-box;
+}
+
+.main .main_part1 .box li {
+  border-right: 1px solid #ccc;
+  width: 186px;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+
+.main .main_part1 .box li:last-child {
+  border: 0px;
+}
+
+.main .main_part1 .box li .pic img {
+  width: 130px;
+  padding-top: 5px;
+}
+
+.main .main_part1 .box li .text {
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+.main .main_part1 .box li .text a {
+  text-align: center;
+  color: #000;
+}
+
+.main .main_part1 .box li .text a:hover {
+  color: #c40000;
+}
+
+.main .main_part1 .box li .text strong {
+  text-align: left;
+  font-size: 16px;
+  color: #c40000;
+  display: block;
+  margin-top: 5px;
+}
+
+.main .main_part1 .part1_left {
+  width: 936px;
+  float: left;
+}
+
+.main .main_part1 .part1_right {
+  width: 252px;
+  float: right;
+}
+
+.main .main_part1 .part1_right .box {
+  padding: 10px 10px 4px;
+}
+
+.main .main_part1 .part1_right .box p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main .sideAd2 {
+  height: 125px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .section {
+  height: 428px;
+}
+
+.main .section p {
+  height: 22px;
+  margin-bottom: 6px;
+}
+
+.main .section .section_box {
+  height: 400px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+}
+
+.main .section .section_box ul.section_box_center {
+  width: 719px;
+  height: 398px;
+  float: left;
+}
+
+.main .section .section_box ul.section_box_center li {
+  width: 239px;
+  height: 199px;
+  background-color: #fc0;
+  float: left;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  background-color: #fff;
+}
+
+.main .section .section_box ul.section_box_center li h2 {
+  margin: 6px 0;
+}
+
+.main .section .section_box ul.section_box_center li span {
+  height: 18px;
+  line-height: 18px;
+  padding: 0 10px;
+  border-radius: 9px;
+  background: #fb3c22;
+  color: #fff;
+}
+
+.main .section .section_box ul.section_box_center li img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.main .section .section_box ul.section_box_center li:nth-child(3n) {
+  border-right: 0px;
+}
+
+.main .section .section_box .section_box_right, .main .section .section_box .section_box_left {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  height: 399px;
+}
+
+.main .section_floor {
+  width: 100%;
+}
+
+.main .section_floor header {
+  height: 37px;
+  line-height: 37px;
+  margin-top: 15px;
+  border-bottom: 2px solid #c40000;
+}
+
+.main .section_floor header h2 {
+  font-size: 16px;
+  font-weight: normal;
+  float: left;
+}
+
+.main .section_floor header h2 span {
+  width: 28px;
+  height: 22px;
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: #c40000;
+  color: #fff;
+  margin-right: 4px;
+}
+
+.main .section_floor header a {
+  color: #000;
+  float: right;
+}
+
+.main .section_floor .section_floor_box {
+  width: 100%;
+  height: 477px;
+}
+
+.main .section_floor .section_floor_box .floor_left {
+  float: left;
+  width: 319px;
+}
+
+.main .section_floor .section_floor_box .floor_left ul {
+  padding-left: 8px;
+  line-height: 18px;
+  padding-top: 23px;
+  height: 71px;
+  background: #fff6e5;
+}
+
+.main .section_floor .section_floor_box .floor_left ul li {
+  float: left;
+  margin-bottom: 12px;
+  width: 76px;
+  text-align: center;
+  white-space: nowrap;
+  border-right: 1px solid #ac6f05;
+}
+
+.main .section_floor .section_floor_box .floor_left ul li:nth-child(4n) {
+  border: 0;
+}
+
+.main .section_floor .section_floor_box .floor_left ul li a {
+  color: #ac6f05;
+}
+
+.main .section_floor .section_floor_box .floor_left img {
+  display: block;
+}
+
+.main .section_floor .section_floor_box .floor_left img:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.main .section_floor .section_floor_box .floor_right {
+  float: right;
+  width: 880px;
+  height: 477px;
+  font-size: 0;
+}
+
+.main .section_floor .section_floor_box .floor_right .lbt {
+  width: 440px;
+  height: 237px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.main .section_floor .section_floor_box .floor_right .lbt b {
+  width: 6px;
+  height: 6px;
+}
+
+.main .section_floor .section_floor_box .floor_right .lbt ul.tu {
+  width: 880px;
+  height: 237px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main .section_floor .section_floor_box .floor_right .lbt ul.tu li {
+  float: left;
+}
+
+.main .section_floor .section_floor_box .floor_right img {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.main .section_floor5 header {
+  height: 37px;
+  line-height: 37px;
+  margin-top: 15px;
+  border-bottom: 2px solid #c40000;
+}
+
+.main .section_floor5 header h2 {
+  font-size: 16px;
+  font-weight: normal;
+  float: left;
+}
+
+.main .section_floor5 header h2 span {
+  width: 28px;
+  height: 22px;
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: #c40000;
+  color: #fff;
+  margin-right: 4px;
+}
+
+.main .section_floor5 .floor5_box_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .section_floor5 .floor5_box_footer a {
+  float: left;
+}
+
+.main .section_floor5 .floor5_box_footer a img {
+  display: block;
+}
+
+.main .section_floor6 header {
+  height: 37px;
+  line-height: 37px;
+  margin-top: 15px;
+  border-bottom: 2px solid #c40000;
+}
+
+.main .section_floor6 header h2 {
+  font-size: 16px;
+  font-weight: normal;
+  float: left;
+}
+
+.main .section_floor6 header h2 span {
+  width: 28px;
+  height: 22px;
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: #c40000;
+  color: #fff;
+  margin-right: 4px;
+}
+
+.main .section_floor6 header a {
+  font-size: 16px;
+  color: #000;
+  float: right;
+}
+
+.main .section_floor6 .floor6_box {
+  height: 382px;
+  padding: 0 0 15px 15px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #fff;
+}
+
+.main .section_floor6 .floor6_box .floor6_imgbox {
+  float: left;
+  margin-top: 15px;
+  width: 221px;
+  height: 107px;
+  overflow: hidden;
+  margin-left: 15px;
+  position: relative;
+}
+
+.main .section_floor6 .floor6_box .floor6_imgbox img {
+  position: absolute;
+}
+
+.dot {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+
+.dot p {
+  margin-right: 10px;
+}
+
+.dot b {
+  width: 17px;
+  height: 17px;
+  border-radius: 20px;
+  color: #333;
+  display: inline-block;
+  border: 1px solid #fff;
+  background: #fff;
+  text-align: center;
+  line-height: 17px;
+  margin: 0 3px;
+  margin-top: 6px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.dot .cur {
+  background: #F63;
+  color: #fff;
+  border: 1px solid #f63;
+}

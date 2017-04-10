@@ -1,0 +1,41 @@
+body, h1, li, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.warp {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.nav .nav_right a.red {
+  color: #c40000;
+}
+
+a:hover {
+  color: #c40000;
+}

@@ -1,0 +1,51 @@
+aside {
+  width: 31.5px;
+  height: 100%;
+  background-color: #eaeaea;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+aside nav {
+  height: 476px;
+  color: #c40000;
+  margin-top: 110px;
+}
+
+aside nav a {
+  color: #c40000;
+}
+
+aside nav li {
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  height: 40px;
+}
+
+aside nav li.yonghu {
+  line-height: 39px;
+}
+
+aside nav li.gouwuche {
+  height: 93px;
+  padding: 10px 0;
+}
+
+aside nav li.gouwuche span {
+  font-size: 12px;
+}
+
+aside nav li.quan {
+  font-size: 22px;
+  line-height: 39px;
+}
+
+aside nav li.fanghui {
+  margin-top: 60px;
+}
+
+html, body {
+  height: 100%;
+}
